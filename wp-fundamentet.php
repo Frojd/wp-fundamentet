@@ -31,7 +31,7 @@ if (! class_exists("Frojd\Plugin\FundamentetApi\Admin")) {
 
 
 class FundamentetApi {
-    const VERSION = '1.0';
+    const VERSION = '1.0.0';
 
     protected $pluginSlug = 'fundament_api';
     protected static $instance = null;
