@@ -1,0 +1,19 @@
+{
+    "name": "frojd/wp-fundamentet",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Martin Sandström",
+            "email": "martin.sandstrom@frojd.se"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "composer/installers": "v1.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Frojd\\Plugin\\FundamentetApi\\": "./"
+        }
+    }
+}
